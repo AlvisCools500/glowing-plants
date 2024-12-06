@@ -1,1 +1,1 @@
-An example Fabric mod.
+The most glowest plant mod ever
