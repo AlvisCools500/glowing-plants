@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "%mod_id%",
+  "version": "%version%",
+  "name": "Example Mod",
+  "description": "An example Fabric mod",
+  "icon": "assets/%mod_id%/icon.png",
+  "authors": [
+    {
+      "name": "thebluetropics",
+      "contact": {
+        "email": "thebluetropics@gmail.com",
+        "homepage": "https://github.com/thebluetropics"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://github.com/thebluetropics/fabric-example-mod",
+    "sources": "https://github.com/thebluetropics/fabric-example-mod",
+    "issues": "https://github.com/thebluetropics/fabric-example-mod/issues"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.thebluetropics.examplemod.ExampleMod"
+    ],
+    "client": [
+      "io.github.thebluetropics.examplemod.client.ExampleModClient"
+    ]
+  },
+  "mixins": [
+    {
+      "environment": "*",
+      "config": "%mod_id%.common.mixins.json"
+    },
+    {
+      "environment": "client",
+      "config": "%mod_id%.client.mixins.json"
+    }
+  ],
+  "depends": {
+    "minecraft": "1.20.6",
+    "fabricloader": ">=0.16.0",
+    "fabric-api": ">=0.97.8+1.20.6",
+    "java": ">=21"
+  },
+  "breaks": {},
+  "provides": []
+}
