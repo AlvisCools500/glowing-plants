@@ -1,3 +1,5 @@
 {
-  "item.example_mod.neon_stick": "Neon Stick"
+  "item.example_mod.neon_stick": "Neon Stick",
+  "block.example_mod.neon_block": "Neon Block",
+  "block.example_mod.blocking_block": "Blocking Block"
 }

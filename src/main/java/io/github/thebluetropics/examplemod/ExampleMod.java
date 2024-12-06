@@ -10,6 +10,7 @@ public class ExampleMod implements ModInitializer {
 
   @Override
   public void onInitialize() {
-    MyJava.initialize();
+    azureitems.initialize();
+    azureblocks.initialize();
   }
 }
