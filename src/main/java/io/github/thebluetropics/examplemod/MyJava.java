@@ -11,10 +11,9 @@ import net.minecraft.util.Identifier;
 public class MyJava {
     public static final Item NEON_STICK = Registry.register(
             Registries.ITEM,
-            Identifier.of(ExampleMod.ID, "Neon_Stick"),
+            Identifier.of(ExampleMod.ID, "neon_stick"),
             new Item(new Item.Settings())
     );
 
     public static void initialize() {}
-
 }
