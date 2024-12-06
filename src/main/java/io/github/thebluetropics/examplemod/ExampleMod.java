@@ -10,6 +10,10 @@ public class ExampleMod implements ModInitializer {
 
   @Override
   public void onInitialize() {
-    ExampleMod.LOGGER.info("Hello, World! (Common initialize)");
+    var MyVar = new MyJava();
+
+    MyVar.MyFunc();
+
+    ExampleMod.LOGGER.info("Java " + MyVar.INTReturner());
   }
 }
