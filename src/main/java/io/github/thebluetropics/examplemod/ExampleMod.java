@@ -10,6 +10,6 @@ public class ExampleMod implements ModInitializer {
 
   @Override
   public void onInitialize() {
-    var MyVar = new MyJava();
+    MyJava.initialize();
   }
 }
